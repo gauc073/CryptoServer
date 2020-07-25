@@ -19,3 +19,7 @@ To run the API locally clone the repo and run
 ```
 python3 crypto_server.py
 ```
+or
+```
+uwsgi --socket 0.0.0.0:8000 --protocol=http -w wsgi
+```
