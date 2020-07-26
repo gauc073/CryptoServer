@@ -11,7 +11,17 @@ source my_venv_dir/bin/activate
 ```
 
 If you are doing a fresh run of the project, you will need to install dependancies. To do so run:
+To run Server use cmd
+```
+PYTHONPATH=. python3 sockets/server.py
+```
+for demo use client
+```
+PYTHONPATH=. python3 sockets/client.py 
+```
 
+
+For REST api version use following cmds
 ```
 pip install -r requirements.txt 
 ```
