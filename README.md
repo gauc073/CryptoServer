@@ -27,9 +27,20 @@ pip install -r requirements.txt
 ```
 To run the API locally clone the repo and run 
 ```
-python3 crypto_server.py
+python3 crypto_server.py -p 8000
 ```
 or
 ```
 uwsgi --socket 0.0.0.0:8000 --protocol=http -w wsgi
+```
+
+### Api Details
+to fetch currency symbol details hit on below url
+```
+GET http://127.0.0.1:8000/currency/{symbol}
+```
+
+to fetch all currency details hit on below url
+```
+GET http://127.0.0.1:8000/currency/all
 ```
