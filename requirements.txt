@@ -10,7 +10,7 @@ Jinja2==2.11.3
 MarkupSafe==1.1.1
 requests==2.24.0
 six==1.15.0
-urllib3==1.25.10
+urllib3==1.26.5
 uWSGI==2.0.19.1
 websocket==0.2.1
 websocket-client==0.57.0
